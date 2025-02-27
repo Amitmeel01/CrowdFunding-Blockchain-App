@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Footer, NavBar } from "@/Components";
+import { CrowdFundingProvider } from "@/context/CrowdFunding";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +24,14 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <>
+        <CrowdFundingProvider>
+        <NavBar/>
         {children}
+        <Footer/>
+        </CrowdFundingProvider>
+        </>
+        
       </body>
     </html>
   );
