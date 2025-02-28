@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
     "ether": "^0.0.9",
     "ethers": "^6.13.5",
     "next": "15.1.7",
@@ -20,13 +21,14 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "autoprefixer": "^10.4.20",
     "chai": "^4.3.6",
     "eslint": "^9.21.0",
     "eslint-config-next": "^15.2.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "hardhat": "^2.22.18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
   }
 }

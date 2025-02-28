@@ -24,8 +24,8 @@ function Popup({ setOpenModel, getDonators, donate, donateFunction }) {
   }, [getDonators, donate.pid]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto bg-black bg-opacity-50">
-      <div className="relative w-full max-w-lg p-4">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+      <div className="relative w-full max-w-lg p-4 bg-opacity-50 ">
         <div className="relative flex flex-col bg-white rounded-lg shadow-xl">
 
           {/* Header */}
