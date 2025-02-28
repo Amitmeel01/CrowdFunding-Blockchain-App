@@ -27,7 +27,7 @@ function NavBar() {
             <ul className='hidden lg:flex items-center space-x-8'>
               {menuList.map((el, i) => (
                 <li key={i + 1}>
-                  <a href='/' aria-label={el} title={el} className='font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 ml-8'>
+                  <a href='https://github.com/Amitmeel01' aria-label={el} title={el} className='font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 ml-8'>
                     {el}
                   </a>
                 </li>
