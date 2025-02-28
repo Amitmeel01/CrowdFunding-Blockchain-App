@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\AMIT MEEL\\Desktop\\solidity\\crowd-funding\\contracts\\CrowdFunding.sol": {
+      "lastModificationDate": 1740687826773,
+      "contentHash": "b14b66c46e849f741da009a2d320b6ab",
+      "sourceName": "contracts/CrowdFunding.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "CrowdFunding"
+      ]
+    }
+  }
+}
