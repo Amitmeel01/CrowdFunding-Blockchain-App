@@ -1,5 +1,5 @@
 import React from 'react'
-import '../app/globals.css';
+
 function Logo({color}) {
   return (
     <svg

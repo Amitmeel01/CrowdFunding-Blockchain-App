@@ -1,7 +1,6 @@
 "use client";
 import { Footer, NavBar } from '@/Components';
 import Card from '@/Components/Card';
-import "./globals.css";
 import Hero from '@/Components/Hero';
 import Popup from '@/Components/Popup';
 import { CrowdFundingAbi } from '@/context/contant'

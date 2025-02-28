@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import '../app/globals.css';
+
 
 function Hero({ titleData, createCampaign }) {
     const [campaign, setCampaign] = useState({
