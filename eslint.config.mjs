@@ -1,15 +1,8 @@
-export default {
-  env: {
-    browser: true,
-    es2021: true,
-    node: true,
-  },
-  extends: ["next/core-web-vitals"],
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-  },
-  rules: {
-    // Add custom rules here
-  },
-};
+// eslint.config.js
+import { FlatCompat } from "@eslint/eslintrc";
+
+const compat = new FlatCompat();
+
+export default [
+  ...compat.extends("next", "next/core-web-vitals"),
+];

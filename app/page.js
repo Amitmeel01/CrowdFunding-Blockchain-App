@@ -1,13 +1,14 @@
 "use client";
 import { Footer, NavBar } from '@/Components';
 import Card from '@/Components/Card';
+import "./globals.css";
 import Hero from '@/Components/Hero';
 import Popup from '@/Components/Popup';
 import { CrowdFundingAbi } from '@/context/contant'
 import {  CrowdFundingContext, CrowdFundingProvider} from '@/context/CrowdFunding';
 import React, { Component, useContext, useEffect, useState } from 'react'
 
-export default function page() {
+export default function Page() {
          const { titleData,
           account,
           createCampaign,
