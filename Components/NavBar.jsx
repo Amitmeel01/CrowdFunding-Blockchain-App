@@ -2,6 +2,7 @@
 
 import React, { useContext, useState } from 'react';
 import { Logo, Menu } from '.';
+import '../app/globals.css';
 import { CrowdFundingContext } from '@/context/CrowdFunding';
 
 function NavBar() {

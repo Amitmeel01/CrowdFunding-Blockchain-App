@@ -1,4 +1,5 @@
 import React from 'react';
+import '../app/globals.css';
 
 function Footer() {
   const productList = ['Market', 'ERC20 Token', 'Donation'];

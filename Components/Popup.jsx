@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import '../app/globals.css';
 
 function Popup({ setOpenModel, getDonators, donate, donateFunction }) {
   const [amount, setAmount] = useState("");
